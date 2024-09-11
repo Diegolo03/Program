@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Prueba : MonoBehaviour
+public class Ejercicio1 : MonoBehaviour
 {
     int vida;
     float porcentajeAcierto;
