@@ -9,10 +9,10 @@ public class Ejercicio2_6 : MonoBehaviour
     void Start()
     {
         media = (puntuacion1 + puntuacion2 + puntuacion3) / 3;
-        Debug.Log("puntuacion1 " + puntuacion1);
-        Debug.Log("puntuacion2 " + puntuacion2);
-        Debug.Log("puntuacion3 " + puntuacion3);
-        Debug.Log("media " + media);
+        Debug.Log("puntuacion1: " + puntuacion1);
+        Debug.Log("puntuacion2: " + puntuacion2);
+        Debug.Log("puntuacion3: " + puntuacion3);
+        Debug.Log("media: " + media);
     }
 
     // Update is called once per frame
