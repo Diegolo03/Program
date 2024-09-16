@@ -5,7 +5,6 @@ using UnityEngine;
 public class Ejercicio3_6 : MonoBehaviour
 {
     [SerializeField] float velocidad1, velocidad2, velocidad3, velocidad4, velocidad5;
-    float vidaPlayer = 120f, venenoPorRonda = 0f;
     // Start is called before the first frame update
     void Start()
     {

@@ -27,14 +27,14 @@ public class Apuntes : MonoBehaviour
     //1. PARA PARAMETRIZAR EL METODO se inicia con Nombre(numero1,numero2); void Nombre(float1,float2,float3, etc...) hay que rellenar todso los huecos asignados en el void y en su orden correcto
     //2. Para cambiar el nombre con CTRL+R, CTRL+R
 
-    //3. El if, si pones if doble tab se rellena, 
+    //3. El if, si pones if doble tab se rellena, se puede meter dentro del parentesis parametros para entrar o no entrar, && -> and, || -> or, ! -> not .
     //Ejemplo if carnet:
     //[SerializeField]bool carnetConducir;
     //if (carnetConducir==true)
-	//{
+    //{
     //   Debug.Log("Puedo conducir!");
-	//}
+    //}
 
-    
+
 
 }

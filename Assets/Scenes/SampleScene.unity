@@ -331,6 +331,12 @@ GameObject:
   - component: {fileID: 1880190571}
   - component: {fileID: 1880190572}
   - component: {fileID: 1880190573}
+  - component: {fileID: 1880190574}
+  - component: {fileID: 1880190575}
+  - component: {fileID: 1880190576}
+  - component: {fileID: 1880190577}
+  - component: {fileID: 1880190579}
+  - component: {fileID: 1880190578}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -521,12 +527,106 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880190558}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18205e30441ca44e84200f37b354e3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radio: 5
+  radio: 0
+--- !u!114 &1880190574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c339c9dbdf9174eab4efffa824894f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad1: 0
+  velocidad2: 0
+  velocidad3: 0
+  velocidad4: 0
+  velocidad5: 0
+--- !u!114 &1880190575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9c74458611fba4f97c710145f56eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseTri: 0
+  alturaTri: 0
+--- !u!114 &1880190576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969d71f45437c9643bffb13d3daa8cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseTri: 0
+  alturaTri: 0
+  radioCir: 0
+  ladoCuad: 0
+--- !u!114 &1880190577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41045bae6192e049adbda8402f9a956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombre: 
+  apellido1: 
+  apellido2: 
+  edad: 0
+--- !u!114 &1880190578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edbf6c92d66c50488f25e0958dc6c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad1: 0
+  velocidad2: 0
+  velocidad3: 0
+  velocidad4: 0
+  velocidad5: 0
+--- !u!114 &1880190579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9971c502d9b01459c3e379e1458c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneda: dolares
+  cantidad: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
