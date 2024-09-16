@@ -337,6 +337,8 @@ GameObject:
   - component: {fileID: 1880190577}
   - component: {fileID: 1880190579}
   - component: {fileID: 1880190578}
+  - component: {fileID: 1880190581}
+  - component: {fileID: 1880190580}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -595,7 +597,7 @@ MonoBehaviour:
   nombre: 
   apellido1: 
   apellido2: 
-  edad: 0
+  edad: 
 --- !u!114 &1880190578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,11 +611,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad1: 0
-  velocidad2: 0
-  velocidad3: 0
-  velocidad4: 0
-  velocidad5: 0
 --- !u!114 &1880190579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba9971c502d9b01459c3e379e1458c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneda: 
+  cantidad: 0
+--- !u!114 &1880190580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -622,11 +634,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1880190558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba9971c502d9b01459c3e379e1458c40, type: 3}
+  m_Script: {fileID: 11500000, guid: 32f71bc6a8564e24bbfe9ce5324bfb2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moneda: dolares
-  cantidad: 10
+--- !u!114 &1880190581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b9c2dc4a5d5574c8a0709776e168ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
