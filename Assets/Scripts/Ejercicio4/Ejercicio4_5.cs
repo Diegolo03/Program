@@ -20,14 +20,24 @@ public class Ejercicio4_5 : MonoBehaviour
             Debug.Log("Área de la cuadrado = " + areaForma);
         if (id == 2)
             Debug.Log("Área del triángulo = " + areaForma);
+
         float resultado = ConvertirDinero(moneda);
         Debug.Log("Son " + resultado + " " + cambio);
+
+
+        CalcularTriangulo(3f, 2f);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    float CalcularTriangulo(float basee, float altura)
+    {
+        float areaT = basee * altura / 2;
+        return areaT;
     }
     float CalcularArea(string areaUsando)
     {
@@ -44,7 +54,7 @@ public class Ejercicio4_5 : MonoBehaviour
             id = 1;
             areaElegida = areaCuad;
         }
-        if (areaUsando == "Tri" || areaUsando == "tri" || areaUsando == "trinágulo" || areaUsando == "trinagulo" || areaUsando == "Trinagulo" || areaUsando == "Triángulo")
+        if (areaUsando == "Tri" || areaUsando == "tri" || areaUsando == "triángulo" || areaUsando == "triangulo" || areaUsando == "Triangulo" || areaUsando == "Triángulo")
         {
             areaTri = (baseTri * alturaTri) / 2;
             id = 2;
