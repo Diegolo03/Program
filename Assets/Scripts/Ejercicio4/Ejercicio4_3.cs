@@ -21,19 +21,21 @@ public class Ejercicio4_3 : MonoBehaviour
     }
     float Convertir(float cantidad, string moneda)
     {
-        
-        if (moneda=="euros")
+
+        if (moneda == "EUR" || moneda == "euro" || moneda == "euros")
         {
             float diferencia = 0.1122f;
-            
-            cantidad += cantidad * diferencia;
-            cambio = "Dolares";
 
+            cantidad += cantidad * diferencia;
+
+            cambio = "Dolares";
         }
-        if(moneda=="dolares")
+        if (moneda == "USD" || moneda == "dolar" || moneda == "dolares" || moneda == "dólares")
         {
             float diferencia = 0.1009f;
+
             cantidad -= cantidad * diferencia;
+
             cambio = "Euros";
         }
         return cantidad;

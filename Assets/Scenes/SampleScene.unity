@@ -584,6 +584,7 @@ MonoBehaviour:
   alturaTri: 0
   radioCir: 0
   ladoCuad: 0
+  areaCalcular: 
 --- !u!114 &1880190577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -656,9 +657,9 @@ MonoBehaviour:
   baseTri: 0
   alturaTri: 0
   radioCir: 0
-  ladoCuad: 12
-  areaUsando: Cuadrado
-  moneda: doalres
+  ladoCuad: 0
+  areaUsando: 
+  moneda: 
 --- !u!114 &1880190582
 MonoBehaviour:
   m_ObjectHideFlags: 0

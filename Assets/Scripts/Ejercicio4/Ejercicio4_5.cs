@@ -8,11 +8,18 @@ public class Ejercicio4_5 : MonoBehaviour
     [SerializeField] string areaUsando = "", moneda = "";
     float areaElegida =0f;
     string cambio = "";
+    int id = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         float areaForma = CalcularArea(areaUsando);
+        if (id == 0)
+            Debug.Log("Área de la circunferencia = " + areaForma);
+        if (id == 1)
+            Debug.Log("Área de la cuadrado = " + areaForma);
+        if (id == 2)
+            Debug.Log("Área del triángulo = " + areaForma);
         float resultado = ConvertirDinero(moneda);
         Debug.Log("Son " + resultado + " " + cambio);
     }
@@ -28,19 +35,19 @@ public class Ejercicio4_5 : MonoBehaviour
         if (areaUsando == "Cir" || areaUsando == "cir" || areaUsando == "círculo" || areaUsando == "circulo" || areaUsando =="Circulo"|| areaUsando == "Círculo")
         {
             areaCir = pi * (radioCir * radioCir);
-            Debug.Log("Área de la circunferencia = " + areaCir);
+            id = 0;
             areaElegida = areaCir;
         }
         if (areaUsando == "Cuad" || areaUsando == "cuad" || areaUsando == "cuadrado" || areaUsando == "Cuadrado")
         {
             areaCuad = (ladoCuad * ladoCuad);
-            Debug.Log("Área de la cuadrado = " + areaCuad);
+            id = 1;
             areaElegida = areaCuad;
         }
         if (areaUsando == "Tri" || areaUsando == "tri" || areaUsando == "trinágulo" || areaUsando == "trinagulo" || areaUsando == "Trinagulo" || areaUsando == "Triángulo")
         {
             areaTri = (baseTri * alturaTri) / 2;
-            Debug.Log("Área del triángulo = " + areaTri);
+            id = 2;
             areaElegida = areaTri;
         }
         return areaElegida;
@@ -51,7 +58,7 @@ public class Ejercicio4_5 : MonoBehaviour
     float ConvertirDinero(string moneda)
     {
         float cantidad = areaElegida;
-        if (areaUsando == "EUR" || areaUsando == "euro" || moneda == "euros")
+        if (moneda == "EUR" || moneda == "euro" || moneda == "euros")
         {
             float diferencia = 0.1122f;
 
@@ -59,7 +66,7 @@ public class Ejercicio4_5 : MonoBehaviour
 
             cambio = "Dolares";
         }
-        if (areaUsando == "USD" || areaUsando == "dolar" || moneda == "dolares" || moneda == "dólares")
+        if (moneda == "USD" || moneda == "dolar" || moneda == "dolares" || moneda == "dólares")
         {
             float diferencia = 0.1009f;
 
