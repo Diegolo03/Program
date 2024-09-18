@@ -11,7 +11,7 @@ public class Ejercicio4_3 : MonoBehaviour
     void Start()
     {
        float  conversion=Convertir(cantidad, moneda);
-        Debug.Log("Son " + conversion + " en "+ cambio);
+        Debug.Log("Son " + conversion + " " + cambio);
     }
 
     // Update is called once per frame

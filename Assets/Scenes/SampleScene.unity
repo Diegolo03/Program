@@ -653,6 +653,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b9c2dc4a5d5574c8a0709776e168ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  baseTri: 0
+  alturaTri: 0
+  radioCir: 0
+  ladoCuad: 12
+  areaUsando: Cuadrado
+  moneda: doalres
 --- !u!114 &1880190582
 MonoBehaviour:
   m_ObjectHideFlags: 0
