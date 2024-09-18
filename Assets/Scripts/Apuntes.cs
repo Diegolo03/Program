@@ -13,6 +13,7 @@ public class Apuntes : MonoBehaviour
     void Start()
     {
         SumarN(vida, pocion);
+
     }
 
     // Update is called once per frame
@@ -34,6 +35,15 @@ public class Apuntes : MonoBehaviour
     //{
     //   Debug.Log("Puedo conducir!");
     //}
+
+    //for el for es un bucle que se ha de completyar para llenarse el anterior va de dentro a fuera
+    //for (int niveles = 0; niveles< 5; niveles++) //Nivel = 1
+    //    {
+    //        for (int rondas = 0; rondas< 10; rondas++) //Ronda = 0, 1, 2, 3.....9
+    //        {
+    //            Debug.Log("Voy por la ronda: " + rondas + " del nivel " + niveles);
+    //        }
+    //    }
 
 
 
