@@ -23,6 +23,6 @@ public class Ejercicio1 : MonoBehaviour
     void Update()
     {
         Debug.Log("Ha pasado un frame");
-        //Este mensaje al igual que el anterior, se repite sucesivamente ya que la funcion del void update se repite cada frame a diferencia de del void start 
+        //Este mensaje al igual, se repite sucesivamente ya que la funcion del void update se repite cada frame a diferencia de del void start, que lo hace unicamente al inicio.
     }
 }

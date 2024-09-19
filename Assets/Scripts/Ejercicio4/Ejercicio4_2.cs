@@ -11,7 +11,7 @@ public class Ejercicio4_2 : MonoBehaviour
     {
 
        string union= ConstruirNombre(nombre, apellido1, apellido2, edad);
-        Debug.Log("La persona se llama " + union + " años");
+        Debug.Log( union );
 
     }
 
@@ -22,7 +22,7 @@ public class Ejercicio4_2 : MonoBehaviour
     }
     string ConstruirNombre(string nombre, string apellido1, string apellido2, string edad)
     {
-        string texto = nombre + " " + apellido1 + " " + apellido2 + " y tiene " + edad;
+        string texto = "La persona se llama "+ nombre + " " + apellido1 + " " + apellido2 + " y tiene " + edad + " años";
 
         return texto;
     }

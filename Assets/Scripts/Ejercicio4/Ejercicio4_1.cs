@@ -6,19 +6,19 @@ public class Ejercicio4_1 : MonoBehaviour
 {
     [SerializeField] float baseTri, alturaTri, radioCir, ladoCuad;
     [SerializeField] string areaCalcular = "";
-    float areaElegida = 0f;
+    float areaElegida = 0f, areaTri, areaCuad, areaCir;
     int id = 0;
     // Start is called before the first frame update
     void Start()
     {
-        float areaForma = CalcularArea(areaCalcular);
+       
+       float resultadoTri= CalcularTriangulo(3f, 2f);
+       float resultadoCuad= CalcularCuadrado(12f);
+       float resultadoCir = CalcularCirculo(6f, 3.14159265359f);
         
-        if (id == 0)
-        Debug.Log("Área de la circunferencia = " + areaForma);
-        if (id == 1)
-            Debug.Log("Área de la cuadrado = " + areaForma);
-        if (id == 2)
-            Debug.Log("Área del triángulo = " + areaForma);
+        Debug.Log("Área de la circunferencia = " + resultadoCir);
+            Debug.Log("Área de la cuadrado = " + resultadoCuad);
+            Debug.Log("Área del triángulo = " + resultadoTri);
 
     }
 
@@ -27,29 +27,19 @@ public class Ejercicio4_1 : MonoBehaviour
     {
         
     }
-    float CalcularArea(string areaCalcular)
+    float CalcularTriangulo(float baseTri, float alturaTri)
     {
-        float areaTri, areaCir, areaCuad, pi = 3.14159265359f;
-        if (areaCalcular == "Cir" || areaCalcular == "cir" || areaCalcular == "círculo" || areaCalcular == "circulo" || areaCalcular == "Circulo" || areaCalcular == "Círculo")
-        {
-            areaCir = pi * (radioCir * radioCir);
-            id = 0;
-            areaElegida = areaCir;
-        }
-        if (areaCalcular == "Cuad" || areaCalcular == "cuad" || areaCalcular == "cuadrado" || areaCalcular == "Cuadrado")
-        {
-            areaCuad = (ladoCuad * ladoCuad);
-            id = 1;
-            areaElegida = areaCuad;
-        }
-        if (areaCalcular == "Tri" || areaCalcular == "tri" || areaCalcular == "trinágulo" || areaCalcular == "trinagulo" || areaCalcular == "Trinagulo" || areaCalcular == "Triángulo")
-        {
-            areaTri = (baseTri * alturaTri) / 2;
-            id = 2;
-            areaElegida = areaTri;
-        }
-        return areaElegida;
-
-
+        float areaTri = baseTri * alturaTri / 2;
+        return areaTri;
+    }
+    float CalcularCuadrado(float ladoCuad)
+    {
+        float areaCuad = (ladoCuad * ladoCuad);
+        return areaCuad;
+    }
+    float CalcularCirculo(float radioCir, float pi)
+    {
+        float areaCir = pi * (radioCir * radioCir);
+        return areaCir;
     }
 }

@@ -13,19 +13,17 @@ public class Ejercicio4_5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float areaForma = CalcularArea(areaUsando);
-        if (id == 0)
-            Debug.Log("Área de la circunferencia = " + areaForma);
-        if (id == 1)
-            Debug.Log("Área de la cuadrado = " + areaForma);
-        if (id == 2)
-            Debug.Log("Área del triángulo = " + areaForma);
+        
 
-        float resultado = ConvertirDinero(moneda);
+
+        float resultado = ConvertirDinero(moneda, 3f);
         Debug.Log("Son " + resultado + " " + cambio);
 
 
-        CalcularTriangulo(3f, 2f);
+       float resultadoTri= CalcularTriangulo(3f, 2f);
+       float resultadoCuad= CalcularCuadrado(12f);
+       float resultadoCir = CalcularCirculo(6f, 3.14159265359f);
+        ConvertirDinero(moneda, resultadoCir);
     }
 
     // Update is called once per frame
@@ -34,40 +32,49 @@ public class Ejercicio4_5 : MonoBehaviour
         
     }
 
-    float CalcularTriangulo(float basee, float altura)
+    float CalcularTriangulo(float baseTri, float alturaTri)
     {
-        float areaT = basee * altura / 2;
-        return areaT;
+        float areaTri = baseTri * alturaTri / 2;
+        return areaTri;
     }
-    float CalcularArea(string areaUsando)
+    float CalcularCuadrado(float ladoCuad)
     {
-        float areaTri, areaCir, areaCuad, pi = 3.14159265359f;
-        if (areaUsando == "Cir" || areaUsando == "cir" || areaUsando == "círculo" || areaUsando == "circulo" || areaUsando =="Circulo"|| areaUsando == "Círculo")
-        {
-            areaCir = pi * (radioCir * radioCir);
-            id = 0;
-            areaElegida = areaCir;
-        }
-        if (areaUsando == "Cuad" || areaUsando == "cuad" || areaUsando == "cuadrado" || areaUsando == "Cuadrado")
-        {
-            areaCuad = (ladoCuad * ladoCuad);
-            id = 1;
-            areaElegida = areaCuad;
-        }
-        if (areaUsando == "Tri" || areaUsando == "tri" || areaUsando == "triángulo" || areaUsando == "triangulo" || areaUsando == "Triangulo" || areaUsando == "Triángulo")
-        {
-            areaTri = (baseTri * alturaTri) / 2;
-            id = 2;
-            areaElegida = areaTri;
-        }
-        return areaElegida;
-        
-        
+        float areaCuad = (ladoCuad * ladoCuad);
+        return areaCuad;
     }
+    float CalcularCirculo(float radioCir, float pi)
+    {
+        float areaCir = pi * (radioCir * radioCir);
+        return areaCir;
+    }
+    //float CalcularArea(string areaUsando)
+    //{
+    //    float areaTri, areaCir, areaCuad, pi = 3.14159265359f;
+    //    if (areaUsando == "Cir" || areaUsando == "cir" || areaUsando == "círculo" || areaUsando == "circulo" || areaUsando =="Circulo"|| areaUsando == "Círculo")
+    //    {
+    //        areaCir = pi * (radioCir * radioCir);
+    //        id = 0;
+    //        areaElegida = areaCir;
+    //    }
+    //    if (areaUsando == "Cuad" || areaUsando == "cuad" || areaUsando == "cuadrado" || areaUsando == "Cuadrado")
+    //    {
+    //        areaCuad = (ladoCuad * ladoCuad);
+    //        id = 1;
+    //        areaElegida = areaCuad;
+    //    }
+    //    if (areaUsando == "Tri" || areaUsando == "tri" || areaUsando == "triángulo" || areaUsando == "triangulo" || areaUsando == "Triangulo" || areaUsando == "Triángulo")
+    //    {
+    //        areaTri = (baseTri * alturaTri) / 2;
+    //        id = 2;
+    //        areaElegida = areaTri;
+    //    }
+    //    return areaElegida;
+        
+    //}
   
-    float ConvertirDinero(string moneda)
+    float ConvertirDinero(string moneda, float cantidad)
     {
-        float cantidad = areaElegida;
+        
         if (moneda == "EUR" || moneda == "euro" || moneda == "euros")
         {
             float diferencia = 0.1122f;
