@@ -508,6 +508,11 @@ GameObject:
   - component: {fileID: 1880190583}
   - component: {fileID: 1880190584}
   - component: {fileID: 1880190585}
+  - component: {fileID: 1880190586}
+  - component: {fileID: 1880190590}
+  - component: {fileID: 1880190589}
+  - component: {fileID: 1880190588}
+  - component: {fileID: 1880190587}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -677,7 +682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d1a4e44af5b7a74c982af88a3bd4aad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero: 40
+  numero: 0
 --- !u!114 &1880190572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,7 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc032c16165b1d46b6bb4e2aaab2a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  experiencia: 12
+  experiencia: 0
 --- !u!114 &1880190573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -862,9 +867,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1d93e856c152654ca10d7912958ea83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numero1: 13
-  numero2: 2
+  numero1: 0
+  numero2: 0
 --- !u!114 &1880190585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51310f93ada854f41b49bc37df95e4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 0
+--- !u!114 &1880190586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79b789651b879141a3a700e5203faca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nivel: 0
+--- !u!114 &1880190587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -873,10 +904,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 1880190558}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51310f93ada854f41b49bc37df95e4a8, type: 3}
+  m_Script: {fileID: 11500000, guid: dc2ea998faf78a74bac2377d60ca09d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nivel: 13
+--- !u!114 &1880190588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a443f6f1bd97a44fa347e3c038a88b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140b044ff46d6c649861ed7d266983e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c02ed6c1dd1ea41baeff38bda26186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velJugador1: 0
+  velJugador2: 0
+  velJugador3: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
