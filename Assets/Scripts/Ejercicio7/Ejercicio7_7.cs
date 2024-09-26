@@ -14,7 +14,7 @@ public class Ejercicio7_7 : MonoBehaviour
             
             Debug.Log(numero);
         }
-;
+
 
     }
 
