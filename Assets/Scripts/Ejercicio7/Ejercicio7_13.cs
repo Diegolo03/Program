@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class Ejercicio7_13 : MonoBehaviour
 {
-    int numero = 101;
+    [SerializeField] int numero;
+    
     // Start is called before the first frame update
     void Start()
     {
-        while (numero <= 101 && numero > 1)
+        if ((numero/1)==0)
         {
+            if ((numero % numero) == 0)
+            {
 
-            numero--;
-            Debug.Log(numero);
+                if ((numero % 4) != 0)
+                {
+                    Debug.Log("No es primo");
+                }
+                else
+                {
+                    Debug.Log("Es primo");
+                }
+            
+            }
+
+
         }
 
 
