@@ -518,6 +518,15 @@ GameObject:
   - component: {fileID: 1880190596}
   - component: {fileID: 1880190595}
   - component: {fileID: 1880190594}
+  - component: {fileID: 1880190605}
+  - component: {fileID: 1880190604}
+  - component: {fileID: 1880190603}
+  - component: {fileID: 1880190602}
+  - component: {fileID: 1880190601}
+  - component: {fileID: 1880190600}
+  - component: {fileID: 1880190599}
+  - component: {fileID: 1880190598}
+  - component: {fileID: 1880190597}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1016,6 +1025,115 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf3d332bc15cad469f1aaa1e518c2eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1880190597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5cf6eccad0bf1d439354fa5181eec8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f97d0e1f6012e04498bb3861f467e22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c81b68e8c5dd824ca9d347bb893ff9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8a25ea0488eb948a6165ebd6a5a793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c24224ccea4bb49922f48e92446f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3141ad290ac3fc44b7dbc9b630690d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242778b1891bd6448b47d941937f66f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b429b84ef294e74b979657dd8cf53a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1880190605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880190558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 328e860fc3e92cb4fa1a7dfc28872c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numero: 20
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
