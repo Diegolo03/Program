@@ -10,10 +10,10 @@ public class Ejercicio7_12 : MonoBehaviour
     void Start()
     {
 
-        for (int numero=numero0; numero != numero1; numeroTotal += numero++)
+        for (int numero=numero0; numero != numero1; numeroTotal += numero)
         {
             numero++;
-            Debug.Log(numeroTotal);
+            Debug.Log(numeroTotal+numero1);
         }
         
     }
