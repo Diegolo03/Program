@@ -9,12 +9,12 @@ public class Ejercicio7_13 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if ((numero/1)==0)
+        if ((numero/1)==numero)
         {
-            if ((numero % numero) == 0)
+            if ((numero / numero) == 1)
             {
 
-                if ((numero % 4) != 0)
+                if ((numero % 4) == 0)
                 {
                     Debug.Log("No es primo");
                 }
