@@ -11,8 +11,7 @@ public class Ejercicio7_11 : MonoBehaviour
     int numero1 = 1;
     // Start is called before the first frame update
     void Start()
-    {
-        
+    {        
         while (numero1 <= numero)
         {
             Debug.Log(numero1);
