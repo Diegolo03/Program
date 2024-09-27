@@ -13,8 +13,9 @@ public class Ejercicio7_11 : MonoBehaviour
         for (int i = 1; i <= 10; i++)
         {
             Debug.Log(numeroEntero + " * " + i + " = " + numeroEntero * i);
+             
         }
-
+        
     }
     // Update is called once per frame
     void Update()
