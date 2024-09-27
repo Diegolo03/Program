@@ -1,27 +1,20 @@
-using Palmmedia.ReportGenerator.Core;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Ejercicio7_11 : MonoBehaviour
 {
-    [SerializeField] int numero;
-    int numero1 = 1;
+    [SerializeField] int numeroEntero;
     // Start is called before the first frame update
     void Start()
-    {        
-        while (numero1 <= numero)
+    {
+        Debug.Log("Tabla del número " + numeroEntero);
+        for (int i = 1; i <= 10; i++)
         {
-            Debug.Log(numero1);
-            numero1++;
+            Debug.Log(numeroEntero + " * " + i + " = " + numeroEntero * i);
         }
-        
-        for (int i = numero1; i <= numero; i++)
-        {
-            Debug.Log(i);
-        }
+
     }
     // Update is called once per frame
     void Update()
