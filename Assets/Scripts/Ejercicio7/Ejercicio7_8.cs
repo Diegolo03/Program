@@ -4,19 +4,32 @@ using UnityEngine;
 
 public class Ejercicio7_8 : MonoBehaviour
 {
-    int numero = 101;
+    [SerializeField] int numero, numero1;
     // Start is called before the first frame update
     void Start()
     {
-        while (numero <= 101 && numero > 1)
+        if (numero > numero1)
         {
-
-            numero--;
-            Debug.Log(numero);
+            for (int i = numero; i >= numero1; i--)
+            {
+                if (i % 2 == 0)
+                {
+                    Debug.Log(i);
+                }
+            }
         }
-
-
+        else
+        {
+            for (int i = numero; i <= numero1; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Debug.Log(i);
+                }
+            }
+        }
     }
+
 
     // Update is called once per frame
     void Update()

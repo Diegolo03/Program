@@ -4,20 +4,26 @@ using UnityEngine;
 
 public class Ejercicio7_6 : MonoBehaviour
 {
-    int numero = 0;
+    [SerializeField] int numero;
+    int numero1; //-numero 
+    
     // Start is called before the first frame update
     void Start()
     {
-        while (numero >= 0 && numero < 100)
+        
+        numero1 = -numero;
+        while (numero1 <= numero)
         {
-
-            numero++;
+            Debug.Log(numero);
+            numero--;
+        }
+        
+        for (numero1 = -numero; numero1 <= numero; numero--)
+        {
             Debug.Log(numero);
         }
-
-
+        
     }
-
     // Update is called once per frame
     void Update()
     {
