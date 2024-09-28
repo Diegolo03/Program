@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour
         {
             PrepararPersonajes();
         }
+        else if (Input.GetKeyDown(KeyCode.Space) && yaEjecutado ==true)
+        {
+            Debug.Log("YA LO HAS EJECUTADO");
+            
+        }
     }
 
     void PrepararPersonajes()
