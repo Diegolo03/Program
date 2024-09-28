@@ -5,23 +5,20 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    private bool yaEjecutado = false;
-    private Personaje Pikachu;
-    private Personaje Charmander;
+    [SerializeField] bool yaEjecutado = false;
+    [SerializeField] Personaje Pikachu;
+    [SerializeField] Personaje Charmander;
     
-
+    //Fernando no entiendo muy bien el resto de apartados del ejercicio, no es que no sepa hacerlos, sino que no entioendo los enunciados me han estado costando un montón hice el 8_1, seguire intentando el resto pero no se muy bien como hacerlo
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && yaEjecutado==false)
         {
             PrepararPersonajes();
+
         }
-        else if (Input.GetKeyDown(KeyCode.Space) && yaEjecutado ==true)
-        {
-            Debug.Log("YA LO HAS EJECUTADO");
-            
-        }
+        
     }
 
     void PrepararPersonajes()
