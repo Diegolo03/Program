@@ -15,7 +15,7 @@ public class Ejercicio7_10 : MonoBehaviour
         Debug.Log("Números entre " + numero0 + " y " + numero1 + " son:");
         if (numero0 > numero1)
         {
-            for (int i = numero0; i <= numero1; i--)
+            for (int i = numero0; i >= numero1; i--)
             {
                 if (i % 2 == 0)
                 {
