@@ -1280,8 +1280,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yaEjecutado: 0
-  Pikachu: {fileID: 0}
-  Charmander: {fileID: 0}
+  Pikachu: {fileID: 1323470640}
+  Charmander: {fileID: 1293720609}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
